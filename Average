@@ -1,0 +1,3 @@
+--Calculating the mean average of the health nutrition population from world data bank.
+SELECT
+AVG(value) as average_value FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population
