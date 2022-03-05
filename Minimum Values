@@ -1,0 +1,4 @@
+--What is the minimum values of the countries overall contribution to population nutrition indicators?
+SELECT country_name, min(value) as minimum_value FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+GROUP BY country_name
+ORDER BY  minimum_value
