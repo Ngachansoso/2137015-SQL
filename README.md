@@ -1,4 +1,4 @@
-Indixator Name
+Indicator Name
 ![image](https://user-images.githubusercontent.com/100994389/156893806-6f4e9372-68ec-4e6d-9bd8-47d6a004bc9d.png)
 
 
