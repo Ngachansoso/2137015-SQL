@@ -1,0 +1,4 @@
+--Find the division in income group from the table using the data set.
+SELECT income_group,count(table_name) as country_name FROM `bigquery-public-data.world_bank_health_population.country_summary` 
+Where Not income_group='null'
+GROUP BY income_group
