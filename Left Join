@@ -1,0 +1,5 @@
+--Combine the indicator name of the data’s from health nutrition population and series summary data.
+SELECT xyz.country_code, fgh.base_period, xyz.indicator_code, fgh.indicator_name
+FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` xyz
+LEFT JOIN  `bigquery-public-data.world_bank_health_population.series_summary` fgh
+ON xyz.indicator_name= fgh.indicator_name
