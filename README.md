@@ -1,5 +1,8 @@
 Indicator Name
 ![image](https://user-images.githubusercontent.com/100994389/156893806-6f4e9372-68ec-4e6d-9bd8-47d6a004bc9d.png)
+
+
+
 Average
 ![image](https://user-images.githubusercontent.com/100994389/156893119-f7114881-349c-4c6d-804e-059d7e10ec6a.png)
 
