@@ -1,0 +1,5 @@
+--What is the lifetime risk of maternal death in Canada?
+SELECT country_name, country_code, indicator_name, year  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+WHERE country_code = 'CAN'
+and indicator_name like '%Lifetime risk of maternal death%'
+order by year asc
