@@ -1,0 +1,4 @@
+--What is the maximum values of the countries overall contribution to population nutrition indicators?
+SELECT country_name, max(value) as maximum_value FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+GROUP BY country_name
+order by maximum_value
