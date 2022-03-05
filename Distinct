@@ -1,0 +1,4 @@
+--Find the percentage of female population amongst countries from the age of 15-64 years  old?
+SELECT distinct country_name,indicator_name,value FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+WHERE indicator_name='Population ages 15-64, female (% of female population)'
+ORDER BY value desc 
