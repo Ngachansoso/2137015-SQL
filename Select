@@ -1,0 +1,3 @@
+--What are the indicator used to describe the health nutrition population in countries.
+SELECT indicator_name, count(country_name) as number_of_countries FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+GROUP BY indicator_name
